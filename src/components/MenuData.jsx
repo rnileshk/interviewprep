@@ -1,19 +1,19 @@
 export const MenuData = [
     {
         title: "About Us",
-        url: "/aboutUs",
+        url: "/about-us",
         cName: "nav-links",
         icon: "fas fa-user"
     },
     {
         title: "Services",
-        url: "/service",
+        url: "/services",
         cName: "nav-links",
         icon: "fas fa-cogs"
     },
     {
         title: "Contact Us",
-        url: "/contactUs",
+        url: "/contactU-us",
         cName: "nav-links",
         icon: "fas fa-envelope"
     },
