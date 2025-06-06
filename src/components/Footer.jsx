@@ -24,8 +24,9 @@ const Footer = () => {
           <h4 style={{ fontSize: "1.5rem" }}>Company</h4>
           <ul>
              <li> <a href='/' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Home</a></li>
-            <li><a href='/aboutUs' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>About Us</a></li>
-            <li> <a href='#' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Contact Us</a></li>
+            <li><a href='/about-us' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>About Us</a></li>
+            <li> <a href='/contact-us' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Contact Us</a></li>
+            <li> <a href='/services' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Services</a></li>
           </ul>
         </div>
 
