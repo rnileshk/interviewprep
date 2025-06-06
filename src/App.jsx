@@ -106,9 +106,9 @@ function App() {
           <Route path='/t&c' element={<TermsCondition />} />
           <Route path='/privacy-policy' element={<PrivacyPolicy />} />
           <Route path='/faq' element={<Faq />} />
-          <Route path='/aboutUs' element={<AboutUs />} />
-          <Route path='/contactUs' element={<ContactUs />} />
-          <Route path='/service' element={<Services />} />
+          <Route path='/about-us' element={<AboutUs />} />
+          <Route path='/contact-us' element={<ContactUs />} />
+          <Route path='/services' element={<Services />} />
           
           <Route path='/aptitude-test' element={<Aptitude />} />
           <Route path='/resume' element={<Resume />} />
