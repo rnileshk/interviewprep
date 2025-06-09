@@ -16,10 +16,10 @@ const StudyMaterial = () => {
 
       <h1
         style={{
-          background: "#e8e5e5",
           padding: "0rem 2rem",
           marginTop: "1rem",
           paddingTop: "1rem",
+          marginBottom: "2rem",
         }}
       >
         Our Courses

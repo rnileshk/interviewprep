@@ -15,9 +15,9 @@ const Footer = () => {
             <li>Cambridge Institute Of Technology, Tatisilwai, Ranchi,</li>
             <li>Jharkhand, Pin-835103</li>
           </ul><br />
-          <p>Phone: <a href="tel:+919199991145">+91 9199991145</a></p><br />
+          <p>Phone: <a href="tel:+919199991145" style={{ color: "#fff" }}>+91 9199991145</a></p><br />
             
-          <p>Email: <a href="mailto:pradeepkr.bhk@gmail.com">pradeepkr.bhk@gmail.com</a></p>
+          <p>Email: <a href="mailto:pradeepkr.bhk@gmail.com" style={{ color: "#fff" }}>pradeepkr.bhk@gmail.com</a></p>
         </div>
 
         <div className="footer-section">
@@ -51,7 +51,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-section">
+        <div className="footer-sec">
             <h4 style={{ fontSize: "1.5rem", textAlign: "center" }}>Developer</h4>
             <ul className='ul'>
                 <div className='creator'>
@@ -65,7 +65,7 @@ const Footer = () => {
                 </div>
                 <div className='creator'>
                   <a href="https://wa.me/91999991145" target="_blank" rel="noreferrer"><li>  <img src="pradeep.jpg" alt="Creator 3" className="creator-photo" /></li></a>
-                  <Button style={{ color: "#fff", fontWeight: "bold" }}>Research, Content Specialist & UI/UX Designer</Button>
+                  <Button style={{ color: "#fff", fontWeight: "bold", textWrap: "wrap" }}>Research, Content Specialist & UI/UX Designer</Button>
                 </div>
             </ul>
         </div>

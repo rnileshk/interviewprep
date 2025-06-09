@@ -9,10 +9,10 @@ import { ToastContainer } from 'react-toastify';
 import StudyMaterial from './components/Pages/StudyMaterial';
 import Resume from './components/Pages/Resume';
 import MockInterview from './components/Pages/MockInterview';
-import TermsCondition from './components/Pages/TermsCondition';
-import PrivacyPolicy from './components/Pages/PrivacyPolicy';
-import Faq from './components/Pages/Faq';
-import Services from './components/Pages/Services';
+import TermsCondition from './components/TermsCondition';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import Faq from './components/Faq';
+import Services from './components/Services';
 
 /* courses */
 import Dsa from './components/Course/Dsa/Dsa';
@@ -41,8 +41,8 @@ import ResumeHome from './components/Resume/Builder/ResumeHome';
 /*Aptitude */
 
 import Aptitude from './components/Apptitude/Aptitude';
-import AboutUs from './components/Pages/AboutUs';
-import ContactUs from './components/Pages/ContactUs';
+import AboutUs from './components/AboutUs';
+import ContactUs from './components/ContactUs';
 
 
 /*  Coding  */

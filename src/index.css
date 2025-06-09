@@ -171,27 +171,20 @@ a {
   text-align: center;
 }
 
-.study-subject {
-  background: #e8e5e5;
-}
 
 .study-subject {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   padding: 20px;
   text-align: left;
 
   .card {
-    width: 17rem;
-    height: 20rem;
-    border: 2px solid #805151;
     border-radius: 0.5rem;
-    object-fit: cover;
 
     .div1 {
       height: 12rem;
-      width: 17rem;
+      width: 20rem;
       border-radius: 0.3rem;
     }
 
@@ -211,8 +204,8 @@ a {
         font-size: 1.2rem;
         margin-top: 1rem;
         border-radius: 0.5rem;
-        background-color: blue;
-        border: 2px solid green;
+        background-color: #0000ff;
+        border: none;
 
         a {
           text-decoration: none;
@@ -236,10 +229,27 @@ a {
   }
 }
 
+@media (max-width: 768px) {
+  .study-subject {
+    width: 85%;
+    padding: 0;
+  }
+  
+  .study-subject .card .div1 {
+    height: 12rem;
+    max-width: 100%;
+  }
+
+  .study-subject .card .details .btn {
+    font-size: 1rem;
+    padding: 0.4rem;
+  }
+}
+
 /* Study Material DSA */
 
 .dsa {
-  width: auto;
+  width: 100%;
   display: flex;
   flex-direction: row;
   gap: 6rem;
@@ -287,7 +297,7 @@ a {
   }
 
   .dsa-images {
-    width: auto;
+    width: 40%;
     height: 30rem;
     padding-left: 2rem;
 
@@ -566,118 +576,108 @@ a {
 }
 
 /* Footer */
+
 .footer {
   background-color: #005b96;
   color: #ffffff;
   padding: 40px 20px 20px 20px;
-  font-family: Arial, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   position: relative;
+}
 
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-    .footer-content {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 40px;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+.footer-section {
+  flex: 1;
+  min-width: 180px;
+}
 
-    .footer-section {
-      flex: 1;
-      min-width: 180px;
+.logo-section {
+  flex: 1.2;
+}
 
-      .creator{
-        display: flex;
-        gap: 1rem;
-      }
-    }
+.footer-logo {
+  width: 150px;
+  height: 80px;
+  border-radius: 12px;
+  margin-bottom: 90px;
+}
 
-    .logo-section {
-      flex: 1.2;
-    }
+.footer-section h4 {
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
 
-    .footer-logo {
-      width: 150px;
-      height: 80px;
-      border-radius: 12px;
-      margin-bottom: 90px;
-    }
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
-    .footer-section h4 {
-      font-size: 1.1rem;
-      margin-bottom: 12px;
-      color: #ffffff;
-    }
+.footer-section ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #ddd;
+}
 
-    .footer-section ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
+.footer-section ul li:hover {
+  text-decoration: underline;
+}
+.footer-sec h4{
+  margin-bottom: 2rem;
+  justify-content: center;
+  text-align: center;
+}
 
+.creator {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-    .footer-section ul li {
-      margin-bottom: 8px;
-      cursor: pointer;
-      color: #ddd;
-    }
+.creator-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 8px;
+  border: 2px solid white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
 
-    .footer-section ul li:hover {
-      text-decoration: underline;
-    }
+.footer-bottom {
+  border-top: 1px solid #444;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-top: 30px;
+}
 
-    .app-badge {
-      width: 140px;
-      height: auto;
-      display: block;
-      margin-bottom: 10px;
-      background-color: white;
-      border-radius: 6px;
-      padding: 5px;
-    }
+.floating-icons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
 
-    .footer-bottom {
-      border-top: 1px solid #444;
-      text-align: center;
-      padding-top: 15px;
-      font-size: 0.9rem;
-      color: #aaa;
-      margin-top: 30px;
-    }
+.floating-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
 
-    .floating-icons {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-    }
-
-    .floating-icon {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      transition: transform 0.3s;
-    }
-
-    .floating-icon:hover {
-      transform: scale(1.1);
-    }
-    .creator-photo {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin: 8px;
-      border: 2px solid white;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
-    }
-     li{
-      font-family: sans-serif;
-      font-size: small;
-     }
-     p{
-      font-family: sans-serif;
-     }
+.floating-icon:hover {
+  transform: scale(1.1);
 }
 
 /* about us */
@@ -1154,11 +1154,12 @@ a:hover {
       height: auto;
 
       img {
-        width: 100%;
+        width: 50%;
         height: auto;
         border-radius: 0.5rem;
       }
     }
+    
 
     .overview {
       width: 100%;
@@ -1187,9 +1188,8 @@ a:hover {
       }
     }
 
-    .dsa-images {
-      width: auto;
-      height: auto;
+    .dsa-images{
+      display: none;
     }
   }
 
@@ -1459,6 +1459,91 @@ a:hover {
 
 }
 
+
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-section {
+    min-width: auto;
+    width: 100%;
+  }
+
+  .logo-section {
+    margin-bottom: 30px;
+  }
+
+  .footer-logo {
+    width: 120px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+
+  .footer-section h4 {
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .footer-section ul li {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .creator {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .creator-photo {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+  }
+
+  .footer-bottom {
+    font-size: 0.8rem;
+    padding: 10px 0;
+  }
+
+  .floating-icons {
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .floating-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 30px 10px 15px 10px;
+  }
+
+  .footer-section h4 {
+    font-size: 1.1rem;
+  }
+
+  .footer-section ul li {
+    font-size: 0.9rem;
+  }
+
+  .footer-logo {
+    width: 100px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+
+  .creator-photo {
+    width: 50px;
+    height: 50px;
+  }
+}
 /* Aptitude */
 .aptitude-container {
   display: flex;
