@@ -61,7 +61,6 @@ Welcome to the **Interview Preparation Platform**, an all-in-one solution design
 
 ## 📸 Screenshots
 
-> _(Add screenshots of key sections like mock interviews, quiz UI, resume analysis, etc.)_
 > ![Screenshot 2025-06-11 094306](https://github.com/user-attachments/assets/1c0485a9-24e3-4968-995f-12205b40cc7a)
 >![Screenshot 2025-06-11 094351](https://github.com/user-attachments/assets/02f6b11c-39c9-4d56-ad10-3a194ad83ffc)
 > ![Screenshot 2025-06-11 095934](https://github.com/user-attachments/assets/a39fac3e-84e3-45ac-a004-5abbee5f13c6)
