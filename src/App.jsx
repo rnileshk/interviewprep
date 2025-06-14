@@ -118,7 +118,7 @@ function App() {
            <Route path="/coding/:interviewId/start" element={<StartInterview />} />
         </Routes>
         <ToastContainer 
-          position="bottom-right"
+          position="top-right"
           autoClose={1500}
           hideProgressBar={false}
           newestOnTop={false}
