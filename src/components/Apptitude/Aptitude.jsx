@@ -5,7 +5,7 @@ import useTabSwitchDetection from './useTabSwitchDetection';
 import useQuestionTimer from './useQuestionTimer';
 import ResultBlock from './ResultBlock';
 import questions from './Questions';
-import { FaCamera } from 'react-icons/fa'; // ✅ Import camera icon
+import { FaCamera } from 'react-icons/fa';
 
 const Aptitude = () => {
   const webcamRef = useRef(null);

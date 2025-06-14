@@ -11,7 +11,7 @@ const Home = () => {
         <div className="title">
           <h1>Prepare For your Interview</h1>
           <p>Get ready for your next job opportunity</p>
-          <button className='btn'><a href='/aboutUs'>Get Started</a></button>
+          <button className='btn'><a href='/about-us'>Get Started</a></button>
         </div>
       </div>
 

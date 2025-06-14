@@ -1543,7 +1543,7 @@ const DbmsTopicPage = () => {
       {/* Sidebar */}
       <div
         style={{
-          width: isSidebarOpen ? "20rem" : "60px",
+          width: isSidebarOpen ? "200px" : "60px",
           background: "#f4f4f4",
           padding: "1rem",
           transition: "width 0.3s",

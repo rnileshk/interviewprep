@@ -79,18 +79,18 @@ function AddNewInterview() {
       >
         <h2
           style={{
-            width: "25rem",
+            width: "23rem",
             fontWeight: "700",
             cursor: "pointer",
             fontSize: "1.5rem",
             textAlign: "center",
-            padding: "20px",
+            padding: "20px 10px",
             border: "2px solid #ccc",
             borderRadius: "8px",
             marginBottom: "2rem",
           }}
         >
-          + Add Your Coding Practice Details
+          + Add Your Coding Details
         </h2>
       </div>
 

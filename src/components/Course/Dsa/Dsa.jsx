@@ -57,7 +57,7 @@ const Dsa = () => {
 
       <div style={{ maxWidth: "950px", margin: "auto" }}>
             <h2 style={{ textAlign: "center", padding: "2rem", color: "#222" }}>DATA STRUCTURE AND ALGORITHMS</h2>
-            <div style={{ border: "1px solid #222", borderRadius: "10px", padding: "1rem", width: "80%" }}>
+            <div style={{ border: "1px solid #222", borderRadius: "10px", padding: "1rem", width: "90%" }}>
               {topics.map((topic) => (
                 <div
                   key={topic.id}
