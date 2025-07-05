@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <div className="resume" style={{ padding: "1rem", background: "#ecf5f7" }}>
       <h1 style={{ textAlign: "center", marginBottom: "2rem" }}>
-        Welcome to our ATS Analyzer
+        Welcome to our Resume Builder & ATS Analyzer
       </h1>
       <Divider component="" style={{ marginBottom: "1rem" }} />
       <div className="resume-content">
@@ -107,7 +107,6 @@ const Resume = () => {
             </p>
           </div>
         </div>
-      </div>
       </div>
     </div>
   );
