@@ -108,42 +108,6 @@ const Resume = () => {
           </div>
         </div>
       </div>
-      <Divider
-        component=""
-        style={{ marginBottom: "1rem", marginTop: "2rem" }}
-      />
-
-      <div className="fin">
-        <h2 style={{ textAlign: "center" }}>
-          Ready to Build Your Resume and Beat the ATS?
-        </h2>
-        <p style={{ textAlign: "center" }}>
-          Join thousands of job seekers using our AI-powered resume builder and
-          ATS checker to land interviews faster.
-        </p>
-        <div className="button">
-          <div className="btn1">
-            <img src="ats.svg" alt="ATS" />
-            <button style={{ background: "blue" }}>
-              <a
-                href="https://resume-scanner-x2sz.onrender.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn"
-                style={{
-                  background: "blue",
-                  color: "white",
-                  fontSize: "1.2rem",
-                  padding: "0.5rem 1rem",
-                  textDecoration: "none",
-                  borderRadius: "4px",
-                }}
-              >
-                Try ATS Analyzer
-              </a>
-            </button>
-          </div>
-        </div>
       </div>
     </div>
   );
