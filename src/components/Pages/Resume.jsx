@@ -28,7 +28,7 @@ const Resume = () => {
               <img src="ats.svg" alt="ATS" />
               <button className="btn" style={{ background: "blue" }}>
                 <a
-                href="https://rnileshk-resume-scanner-app-zvbyz9.streamlit.app/"
+                href="https://resume-scanner-x2sz.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
@@ -126,7 +126,7 @@ const Resume = () => {
             <img src="ats.svg" alt="ATS" />
             <button style={{ background: "blue" }}>
               <a
-                href="https://rnileshk-resume-scanner-app-zvbyz9.streamlit.app/"
+                href="https://resume-scanner-x2sz.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
