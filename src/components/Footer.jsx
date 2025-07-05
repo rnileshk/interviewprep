@@ -34,8 +34,9 @@ const Footer = () => {
           <h4 style={{ fontSize: "1.5rem" }}>Explore</h4>
           <ul>
             <li><a href='/study-material' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Study Material</a></li>
-            <li><a href='/resume-builder' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Resume Builder</a></li>
             <li><a href='/aptitude-test' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Aptitute</a></li>
+            <li><a href='/resume' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Resume Scanner</a></li>
+            <li><a href='/resume-builder' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Resume Builder</a></li>
             <li><a href='/mock-interview' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Mock Interview</a></li>
             <li><a href='/coding' style={{ textDecoration: "none", color: "white", fontSize: "1.2rem" }}>Coding Practise</a></li>
            
