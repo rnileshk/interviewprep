@@ -32,15 +32,13 @@ const Home = () => {
         <div className="card">
           <i className="fa-solid fa-list-check fa-beat-fade" style={{ color: "green" }}></i>
           <h2>Aptitude Test</h2>
-          <p>Test your skills with our aptitude tests and</p>
-          <p>quizzes</p>
+          <p>Test your skills with our aptitude tests and quizzes</p>
           <RedirectButton label="Explore" targetPath="/aptitude-test" />
         </div>
         <div className="card">
           <img src="/cv.png" alt="Logo" className="cv fa-fade" />
           <h2>AI Resume Analysis</h2>
-          <p>Analyse your resume with</p>
-          <p>our AI-powered resume analysis tool.</p>
+          <p>Analyse your resume with our AI-powered resume analysis tool.</p>
           <RedirectButton label="Explore" targetPath="/resume" />
         </div>
         <div className="card">
