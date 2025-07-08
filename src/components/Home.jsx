@@ -32,13 +32,15 @@ const Home = () => {
         <div className="card">
           <i className="fa-solid fa-list-check fa-beat-fade" style={{ color: "green" }}></i>
           <h2>Aptitude Test</h2>
-          <p>Test your skills with our aptitude tests and quizzes</p>
+          <p>Test your skills with our aptitude tests and</p>
+          <p>quizzes</p>
           <RedirectButton label="Explore" targetPath="/aptitude-test" />
         </div>
         <div className="card">
           <img src="/cv.png" alt="Logo" className="cv fa-fade" />
           <h2>AI Resume Analysis</h2>
-          <p>Analyse your resume with our AI-powered resume analysis tool.</p>
+          <p>Analyse your resume with</p>
+          <p>our AI-powered resume analysis tool.</p>
           <RedirectButton label="Explore" targetPath="/resume" />
         </div>
         <div className="card">
@@ -49,13 +51,13 @@ const Home = () => {
         </div>
         <div className="card">
           <img src="/ats.jpg" alt="Logo" className="cv fa-fade" />
-          <h2>AI Resume Bilder</h2>
+          <h2>AI Resume Builder</h2>
           <p>Create a professional resume with our easy-to-use builder</p>
           <RedirectButton label="Explore" targetPath="/resume-builder" />
         </div>
         <div className="card">
           <img src="/coding.png" alt="Logo" className="cv fa-fade" />
-          <h2>AI Coding Practise</h2>
+          <h2>AI Coding Practice</h2>
           <p>Practise Coding test with our AI powered Coding Practise</p>
           <RedirectButton label="Explore" targetPath="/coding" />
         </div>
