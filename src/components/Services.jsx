@@ -33,7 +33,7 @@ function Services() {
             description:
             "Get personalized feedback and actionable insights to improve your resume for better job prospects.",
             icon: "🔍",
-            url: "/services/resume-analysis",
+            url: "/resume",
         },
         {
             title: "Mock Interview",
@@ -47,7 +47,7 @@ function Services() {
             description:
             "Solve coding problems with real-time evaluation and improve your data structures & algorithms skills.",
             icon: "💻",
-            url: "/coding-practice",
+            url: "/coding",
         },
   ];
 
