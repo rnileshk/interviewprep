@@ -6,7 +6,7 @@ const Resume = () => {
   return (
     <div className="resume" style={{ padding: "1rem", background: "#ecf5f7" }}>
       <h1 style={{ textAlign: "center", marginBottom: "2rem" }}>
-        Welcome to our Resume Builder & ATS Analyzer
+        Welcome to our Resume & ATS Analyzer
       </h1>
       <Divider component="" style={{ marginBottom: "1rem" }} />
       <div className="resume-content">
@@ -28,7 +28,7 @@ const Resume = () => {
               <img src="ats.svg" alt="ATS" />
               <button className="btn" style={{ background: "blue" }}>
                 <a
-                href="https://resume-scanner-x2sz.onrender.com/"
+                href="https://resume-scanner-1-55df.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
