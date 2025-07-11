@@ -28,7 +28,7 @@ const Resume = () => {
               <img src="ats.svg" alt="ATS" />
               <button className="btn" style={{ background: "blue" }}>
                 <a
-                href="https://resume-scanner-1-55df.onrender.com/"
+                href="https://resume-scanner-2-u26v.onrender.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
