@@ -37,9 +37,9 @@ const Footer = () => {
             <li>Cambridge Institute Of Technology, Tatisilwai, Ranchi,</li>
             <li>Jharkhand, Pin-835103</li>
           </ul>
-          <p>Phone: <a href="tel:+919199991145" style={{ color: "#fff" }}>+91 9199991145</a></p>
+          <p>Phone: <a href="tel:+919199991145" style={{ color: "#fff" }}>+91 7033239572</a></p>
             
-          <p>Email: <a href="mailto:pradeepkr.bhk@gmail.com" style={{ color: "#fff" }}>pradeepkr.bhk@gmail.com</a></p>
+          <p>Email: <a href="mailto:imnileshkumar06@gmail.com" style={{ color: "#fff" }}>pradeepkr.bhk@gmail.com</a></p>
         </div>
 
         <div className="footer-sec">
